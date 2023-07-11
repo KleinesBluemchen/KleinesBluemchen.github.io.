@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/* =============================================
+	Base layout styles used by mobile devices
+	up to 480px and cascaded to larger devices 
+	unless superceded by other styles.
+   =============================================
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* hovering */
+li a:hover {
+  background-color: #111;
+}
+
+body {
+  background-color: black;
+}
+
+/* for the home button img */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+/* texts */
+
+article > h1 {
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:antiquewhite
+}
+
+article > p {
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:antiquewhite
+}
+
+/*images*/
+
+body {
+  width: 820px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  color: rgb(179, 41, 197);
+  text-shadow: 0px 0px 2px black, 0px 0px 10px black, 0px 0px 30px black;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+section {
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  background: rgb(255, 128, 17);
+  box-shadow: inset 0px 0px 20px black;
+  padding-top: 20px;
+  float: left;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+img {
+  width: 200px;
+  display: block;
+  margin: 0px auto;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px black;
+  box-sizing: border-box;
+}
+
+section > footer {
+  margin: 10px;
+  font-style: italic;
+  box-sizing: border-box;
+  color:antiquewhite
+}
+
